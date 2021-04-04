@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create User -- Positif Case Create User using valid request 1`] = `
+Object {
+  "job": "member",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using empty string on job field 1`] = `
+Object {
+  "job": "",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using empty string on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using greater than 30 char on job field 1`] = `
+Object {
+  "job": "rbIEPXyfWFXSRnqOcwIQWCqwSxfjKQC",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using greater than 30 char on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "lbfZddPXhEZaQUxXUNJeMYLcQcRDElk",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using less than 3 char on job field 1`] = `
+Object {
+  "job": "QS",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using less than 3 char on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "Om",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using null on job field 1`] = `
+Object {
+  "job": null,
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using null on name field 1`] = `
+Object {
+  "job": "member",
+  "name": null,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using number on job field 1`] = `
+Object {
+  "job": "member",
+  "name": "1182028435",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using number on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "5636089670",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol ! on job field 1`] = `
+Object {
+  "job": "!uAZp",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol ! on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "!BweB",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol # on job field 1`] = `
+Object {
+  "job": "#HGXk",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol # on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "#rSrC",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol $ on job field 1`] = `
+Object {
+  "job": "$YIIg",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol $ on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "$oiGd",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol % on job field 1`] = `
+Object {
+  "job": "%BGmc",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol % on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "%BfKZ",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol & on job field 1`] = `
+Object {
+  "job": "&yrBP",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol & on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "&xeAU",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol * on job field 1`] = `
+Object {
+  "job": "*dTwB",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol * on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "*cviq",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol , on job field 1`] = `
+Object {
+  "job": ",UoUR",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol , on name field 1`] = `
+Object {
+  "job": "member",
+  "name": ",UdIH",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol . on job field 1`] = `
+Object {
+  "job": ".RnzA",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol . on name field 1`] = `
+Object {
+  "job": "member",
+  "name": ".bGjH",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol / on job field 1`] = `
+Object {
+  "job": "/kBvf",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol / on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "/LHNz",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol ? on job field 1`] = `
+Object {
+  "job": "?tQpt",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol ? on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "?Jjer",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol @ on job field 1`] = `
+Object {
+  "job": "@Wvfu",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol @ on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "@qSpj",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol ^ on job field 1`] = `
+Object {
+  "job": "^bfiJ",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol ^ on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "^BuRb",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol _ on job field 1`] = `
+Object {
+  "job": "_HJad",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Negatif Case Update User using symbol _ on name field 1`] = `
+Object {
+  "job": "member",
+  "name": "_idEC",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Update User -- Positif Case Update User using valid request 1`] = `
+Object {
+  "job": "member",
+  "name": "morpheus2",
+  "updatedAt": Any<String>,
+}
+`;

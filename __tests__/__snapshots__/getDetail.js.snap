@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Detail User -- Positif Case View Detail User with id 1 1`] = `
+Object {
+  "data": Object {
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "email": "george.bluth@reqres.in",
+    "first_name": "George",
+    "id": 1,
+    "last_name": "Bluth",
+  },
+  "support": Object {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading",
+  },
+}
+`;
+
+exports[`View Detail User -- Positif Case View Detail User with id 2 1`] = `
+Object {
+  "data": Object {
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "id": 2,
+    "last_name": "Weaver",
+  },
+  "support": Object {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading",
+  },
+}
+`;

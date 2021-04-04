@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Detail User -- Positif Case View Detail User with id 1 1`] = `Object {}`;
+
+exports[`View Detail User -- Positif Case View Detail User with id 2 1`] = `Object {}`;
